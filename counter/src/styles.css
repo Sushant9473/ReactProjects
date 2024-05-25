@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  color: white;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+section {
+  width: 40rem;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 100px;
+  font-size: 2rem;
+  background: #27282b;
+  color: #fff;
+  cursor: pointer;
+  border:none;
+}
